@@ -1,9 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+  margin-left: 20vw;
+`;
 
 const Logo = () => (
-  <div style={{ marginLeft: '2rem' }}>
+  <Wrapper>
     <h1>Lemesh LOGO</h1>
-  </div>
+  </Wrapper>
 );
 
 export default Logo;

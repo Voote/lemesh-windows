@@ -1,15 +1,15 @@
 import React from 'react';
-import Logo from 'components/atoms/Logo/Logo';
-import HamburgerMenu from 'components/molecules/HamburgerMenu/HamburgerMenu';
-import SocialMedia from 'components/molecules/SocialMedia/SocialMedia';
 import styled from 'styled-components';
+import Logo from 'components/atoms/Logo/Logo';
+import SocialMedia from 'components/molecules/SocialMedia/SocialMedia';
+import HamburgerMenu from 'components/molecules/HamburgerMenu/HamburgerMenu';
 
 const Wrapper = styled.div`
   position: fixed;
-  top: 0;
   display: flex;
+  top: 0;
+  width: 100vw;
   background-color: #fff;
-  width: 100%;
 `;
 
 const Navigation = () => (
