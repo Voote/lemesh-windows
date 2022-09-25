@@ -1,12 +1,15 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import "./index.css";
-import AppProvider from "./AppProvider";
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import 'assets/styles/font.css';
+import AppProvider from 'AppProvider';
+import Root from 'views/Root';
 
-const container = document.getElementById("root");
+const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
-    <AppProvider />
+    <AppProvider>
+      <Root />
+    </AppProvider>
   </React.StrictMode>
 );

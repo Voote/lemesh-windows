@@ -8,13 +8,18 @@ const StyledHeader = styled.div`
 `;
 
 const Beige = styled.h2`
-  background-color: beige;
+  background-color: #f5f5dc;
+`;
+
+const Cutoff = styled.h1`
+  background-color: white;
+  padding: 1rem;
 `;
 
 const Header = () => (
   <StyledHeader>
-    <h1>Hello World</h1>
     <Beige>Hello World in beige</Beige>
+    <Cutoff>White Cutoff</Cutoff>
   </StyledHeader>
 );
 
