@@ -10,7 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Bodoni Moda', serif;
+        font-family: 'Kantumruy Pro', sans-serif;
         margin: 0;
         padding: 0;
         overflow-x: hidden;
@@ -18,6 +19,6 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     a, button {        
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Bodoni Moda', serif;
     }
 `;
