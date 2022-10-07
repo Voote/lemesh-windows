@@ -7,6 +7,7 @@ import HamburgerMenu from 'components/molecules/HamburgerMenu/HamburgerMenu';
 const Wrapper = styled.div`
   position: fixed;
   display: flex;
+  justify-content: center;
   top: 0;
   width: 100vw;
   background-color: #fff;

@@ -1,26 +1,30 @@
 import React from 'react';
+import labels from 'assets/labels';
 import styled from 'styled-components';
 
 const StyledHeader = styled.div`
-  text-align: center;
-  font-weight: 900;
-  font-size: large;
-  padding-top: 20vh;
+  padding-top: 27vh;
 `;
 
-// const Beige = styled.h2`
-//   background-color: #f5f5dc;
-// `;
-
-const Cutoff = styled.h1`
-  background-color: white;
+const Cutoff = styled.h3`
+  background-color: ${({ theme }) => theme.colors.beigeLight};
+  text-align: center;
+  font-weight: 500;
+  font-size: ${({ theme }) => theme.fontSize.l}; // wieksze dla desktop
   padding: 1rem;
+  opacity: 90%;
+  strong {
+    font-family: 'Bodoni Moda', serif;
+  }
 `;
 
 const Header = () => (
   <StyledHeader>
-    {/* <Beige>Hello World in beige</Beige> */}
-    <Cutoff>White Cutoff</Cutoff>
+    <Cutoff>
+      {labels.whiteCutoff1}
+      <strong>{labels.whiteCutoffStrong}</strong>
+      {labels.whiteCutoff2}
+    </Cutoff>
   </StyledHeader>
 );
 

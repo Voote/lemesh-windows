@@ -7,7 +7,7 @@ const SocialMedia = () => (
     style={{
       display: 'flex',
       position: 'absolute',
-      top: '1vh',
+      top: '2vh',
       left: '2vh',
     }}
   >

@@ -5,8 +5,8 @@ import { Button, Menu, MenuItem } from '@mui/material';
 
 const Wrapper = styled.div`
   position: absolute;
-  top: 0.5vh;
-  right: 0.5vh;
+  top: 1vh;
+  right: 1vh;
 `;
 
 const HamburgerMenu = () => {

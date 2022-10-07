@@ -2,12 +2,21 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  margin-left: 20vw;
+  padding: 0.1em;
+`;
+
+const LogoPNG = styled.img`
+  min-width: 9rem;
+  max-width: 17rem;
+  width: 50vw;
+  margin: auto;
+  align-self: center;
 `;
 
 const Logo = () => (
   <Wrapper>
-    <h1>Lemesh LOGO</h1>
+    <LogoPNG src="IMG/LEMESH_LOGO_OFFICIAL.png" alt="logo" />
+    {/* <h1>Lemesh LOGO</h1> */}
   </Wrapper>
 );
 
