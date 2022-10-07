@@ -2,8 +2,8 @@ import React from 'react';
 import labels from 'assets/labels';
 import styled from 'styled-components';
 
-const StyledHeader = styled.div`
-  padding-top: 27vh;
+const StyledHeadline = styled.div`
+  padding-top: 32vh;
 `;
 
 const Cutoff = styled.h3`
@@ -18,14 +18,14 @@ const Cutoff = styled.h3`
   }
 `;
 
-const Header = () => (
-  <StyledHeader>
+const Headline = () => (
+  <StyledHeadline>
     <Cutoff>
       {labels.whiteCutoff1}
       <strong>{labels.whiteCutoffStrong}</strong>
       {labels.whiteCutoff2}
     </Cutoff>
-  </StyledHeader>
+  </StyledHeadline>
 );
 
-export default Header;
+export default Headline;

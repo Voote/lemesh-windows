@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Header from 'components/atoms/Header/Header';
 import Navigation from 'components/organisms/Navigation/Navigation';
+import Headline from 'components/molecules/Headline/Headline';
 
 const Wrapper = styled.div`
   background: url(IMG/SlidingSash01.jpg);
@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 const MainTemplate = ({ children }) => (
   <Wrapper>
     <Navigation />
-    <Header />
+    <Headline />
     {children}
   </Wrapper>
 );
