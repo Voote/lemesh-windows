@@ -3,7 +3,7 @@ import labels from 'assets/labels';
 import styled from 'styled-components';
 
 const StyledHeadline = styled.div`
-  padding-top: 32vh;
+  padding-top: 36vh;
 `;
 
 const Cutoff = styled.h3`
