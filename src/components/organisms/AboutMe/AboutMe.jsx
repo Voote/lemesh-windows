@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   background-color: white;
   margin-top: 30vh;
-  padding: 0.1rem 1rem 0.5rem 1rem;
+  padding: 0.1rem 1rem 7rem 1rem;
   h1 {
     text-align: center;
   }

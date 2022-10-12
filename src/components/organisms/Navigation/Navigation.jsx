@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   top: 0;
   width: 100vw;
   background-color: #fff;
+  z-index: 7; //zmniejszyc logo przy przewijaniu w dol
 `;
 
 const Navigation = () => (
