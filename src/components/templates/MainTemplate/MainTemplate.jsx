@@ -7,8 +7,9 @@ const Wrapper = styled.div`
   background: url(IMG/SlidingSash01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 10%;
-  height: 85vh;
+  background-position: 48%;
+  height: 50vh; //
+  margin-top: 9rem; // 7rem ponizej 380
   /* if width < 375px zwiekszyc szerokosc do 105vw */
 `;
 

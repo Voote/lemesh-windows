@@ -3,7 +3,7 @@ import labels from 'assets/labels';
 import styled from 'styled-components';
 
 const StyledHeadline = styled.div`
-  padding-top: 36vh;
+  padding-top: 17vh; //27vh dla desktop
 `;
 
 const Cutoff = styled.h3`
@@ -11,7 +11,7 @@ const Cutoff = styled.h3`
   text-align: center;
   font-weight: 500;
   font-size: ${({ theme }) => theme.fontSize.l}; // wieksze dla desktop
-  padding: 1rem;
+  padding: 1em;
   opacity: 90%;
   strong {
     font-family: 'Bodoni Moda', serif;

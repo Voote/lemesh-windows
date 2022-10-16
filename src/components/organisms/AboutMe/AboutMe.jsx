@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   background-color: white;
-  margin-top: 30vh;
-  padding: 0.1rem 1rem 7rem 1rem;
+  margin-top: 14vh; //25vh dla desktop 14vh ponizej 380
+  padding: 0.1rem 1rem 27rem 1rem;
   h1 {
     text-align: center;
   }
