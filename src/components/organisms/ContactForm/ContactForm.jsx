@@ -1,4 +1,4 @@
-import Input, { InputMultiple, InputSingle } from 'components/molecules/Input/Input';
+import { InputMultiple, InputSingle } from 'components/molecules/Input/Input';
 import React from 'react';
 import styled from 'styled-components';
 
