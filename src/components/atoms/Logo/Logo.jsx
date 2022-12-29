@@ -15,8 +15,7 @@ const LogoPNG = styled.img`
 
 const Logo = () => (
   <Wrapper>
-    <LogoPNG src="IMG/LEMESH_LOGO_OFFICIAL.png" alt="logo" />
-    {/* <h1>Lemesh LOGO</h1> */}
+    <LogoPNG src="IMG/LEMESH_LOGO_OFFICIAL.png" alt="Lemesh Windows logo" />
   </Wrapper>
 );
 
