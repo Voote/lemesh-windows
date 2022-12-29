@@ -5,7 +5,6 @@ import styled from 'styled-components';
 const ColoredIcon = styled(FacebookIcon)`
   color: #4267b2;
   :hover {
-    //Only desktop
     color: brown;
   }
 `;

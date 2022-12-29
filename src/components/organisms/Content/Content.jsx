@@ -4,7 +4,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import ContactForm from '../ContactForm/ContactForm';
 
 const Wrapper = styled.div`
-  margin-top: 4vh; //25vh for desktop; 14vh under 380
+  margin-top: 4vh;
 `;
 
 const Content = () => (

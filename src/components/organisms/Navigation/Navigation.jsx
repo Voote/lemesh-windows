@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   top: 0;
   width: 100vw;
   background-color: #fff;
-  z-index: 7; //reduce logo while scrolling down
+  z-index: 7;
 `;
 
 const Navigation = () => (

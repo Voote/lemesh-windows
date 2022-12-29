@@ -9,8 +9,7 @@ const Wrapper = styled.div`
   background-size: cover;
   background-position: 48%;
   height: 50vh;
-  margin-top: 9rem; // 7rem if under 380
-  /* if width < 375px increace  105vw */
+  margin-top: 9rem;
 `;
 
 const MainTemplate = ({ children }) => (

@@ -8,7 +8,7 @@ const SingleTextfield = styled(TextField)({
     color: '#C8AE72',
   },
   '& .MuiInput-underline:after': {
-    borderBottomColor: 'red', //dunno
+    borderBottomColor: 'red',
   },
   '& .MuiOutlinedInput-root': {
     '& fieldset': {
