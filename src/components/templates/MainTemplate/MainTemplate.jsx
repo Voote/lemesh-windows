@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   background-position: 48%;
   height: 50vh;
   margin-top: 9rem; // 7rem if under 380
-  /* if width < 375px increase width to 105vw */
+  /* if width < 375px increace  105vw */
 `;
 
 const MainTemplate = ({ children }) => (
